@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV_Articles_AravisInfo", "CSV_Articles_AravisInfo\CSV_Articles_AravisInfo.csproj", "{9F39D77D-9863-440C-A400-E630AA46F2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{93DB62F9-7394-4A46-811D-D9D7DAB1F5B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F39D77D-9863-440C-A400-E630AA46F2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F39D77D-9863-440C-A400-E630AA46F2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F39D77D-9863-440C-A400-E630AA46F2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F39D77D-9863-440C-A400-E630AA46F2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DB62F9-7394-4A46-811D-D9D7DAB1F5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DB62F9-7394-4A46-811D-D9D7DAB1F5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DB62F9-7394-4A46-811D-D9D7DAB1F5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DB62F9-7394-4A46-811D-D9D7DAB1F5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B21F660-E883-46F1-9484-E4AC1365CE3C}
+	EndGlobalSection
+EndGlobal

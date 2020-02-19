@@ -1,0 +1,8 @@
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\bin\Debug\netstandard2.0\Classes.deps.json
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\bin\Debug\netstandard2.0\Classes.dll
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\bin\Debug\netstandard2.0\Classes.pdb
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\obj\Debug\netstandard2.0\Classes.csprojAssemblyReference.cache
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\obj\Debug\netstandard2.0\Classes.AssemblyInfoInputs.cache
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\obj\Debug\netstandard2.0\Classes.AssemblyInfo.cs
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\obj\Debug\netstandard2.0\Classes.dll
+C:\Users\Clem\Documents\temp\Aravis Informatique\WPF_CSV_Articles_AravisInfo\Classes\obj\Debug\netstandard2.0\Classes.pdb

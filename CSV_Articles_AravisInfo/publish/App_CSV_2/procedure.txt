@@ -1,0 +1,73 @@
+ETAPE 1
+Lancer l'appli de création des CSV
+
+Dans la liste des fournisseurs, si il y en a déjà, le ✔ signifie que le fichier est bien connu par l'application, et la ❌ signifie que l'application n'arrive pas a trouver le fichier fournisseur
+Les fournisseurs déjà présents dans la liste, contiennent une mention "À exporter" ou "Pas d'export" selon si la case située en dessous de la liste est cochée ou non. Par défaut, le fournisseurs contient la mention "À exporter".
+Sur la gauche de la liste, sont présents deux boutons qui permettent de réorganiser l'ordre des fournisseurs dans l'export final.
+
+cliquez sur "Importer paramétrage" si vous en avez un.
+
+Sinon, cliquez sur "Ajouter Fournisseur"
+Entrez le nom de votre fournisseur, sélectionnez le fichier CSV du fournisseur et cliquez sur "Valider"
+Associez les différents champs obligatoires avec les champs du fichier fournisseur à l'aide des listes déroulantes.
+Cliquez ensuite sur "Valider"
+
+Lorsque vous sélectionner un fournisseur dans la liste, vous pouvez le supprimer, faire en sorte qu'ils soit présent ou non dans le fichier final et vous pouvez aussi modifier les paramètres du fournisseur.
+La modification d'un fournisseur s'effectue de la même manière qu'à l'ajout.
+
+A gauche de la liste des fournisseurs, se trouvent deux boutons qui permettent de réorganiser l'ordre des fournisseurs dans le CSV final. Cela permet de placer les fournisseurs qui ne proposent pas de familels d'articles en premier.
+
+Cliquez ensuite sur "Exporter CSV final", vous sélectionnez le dossier ou vous souhaitez l'exporter.
+A la fin de l'export, le dossier que vous avez choisi s'ouvre et vous y trouverez trois fichier CSV :
+-CSV_Final.csv
+-Familles_Articles.csv
+-Fournisseurs.csv
+
+
+
+ETAPE 2
+Sur le logiciel EBP Gestion commerciale maintenant
+
+On commence par importer les fournisseurs:
+Dans le menu "Outils", cliquez sur "imports paramétrables"
+un fenêtre s'ouvre, cliquez sur suivant et sélectionnez "Fournisseurs"
+sélectionnez le fichier à importer (Fournisseurs.csv) et cliquez sur suivant
+dans codage choisissez UTF-8 et cliquez sur suivant
+Le séparateur est le point virgule, cliquez sur suivant
+Dans la liste d'association, faites les associations suivantes:
+	Code (tiers) -> ID_Fournisseur
+	Nom -> Fournisseur
+Cliquez ensuite sur "Suivat" et sur "Lancer"
+Vos fournisseurs sont importés.
+
+Ensuite, pour l'import des Familles d'articles, la procédure est la même, sélectionnez juste "Famille Articles" au lieu de "Fournisseurs"
+Et en utilisant le fichier Familles_Articles.csv
+Les associations sont :
+	Code Famille Articles -> ID_FamilleArticle
+	Famille Article -> Famille_Article
+Cliquez sur "Suivant" et sur "Lancer"
+
+Passons maintenant à l'import des articles
+toujours la même procédure en sélectionnant "Articles" au début
+Et en utilisant le fichier CSV_Final.csv
+Au niveau des associations :
+	Code article -> code_art
+	Code Famille Articles -> code_FamilleArticle
+	Libellé de la famille article -> category_name
+	Libellé -> description
+	Description commerciale en clair -> description
+	Code barre -> EAN
+Cliquez ensuite sur Suivant et Lancer
+
+Et pour finir, il va faloir importer les tarifs par fournisseurs.
+Toujours la même procédure en sélectionnant "Articles (informations fournisseurs)"
+Et en utilisant le fichier CSV_Final.csv
+au niveau des associations :
+	Code article -> code_art
+	Code fournisseur -> Fournisseur_ID
+	Fournisseur principal -> fournisseur_principal
+	Prix d'achat net H.T. -> prix_achat
+	Code barre -> EAN
+	Reporter le prix d'achat net sur le prix d'achat de l'article -> report_PA_sur_PVC
+Cliquez ensuite sur Suivant et Lancer
+
